@@ -1,0 +1,32 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.eslint-vscode",
+    "editor.formatOnSave": true
+  },
+  "[type]": {
+    "editor.defaultFormatter": "esbenp.eslint-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typereact]": {
+    "editor.defaultFormatter": "esbenp.eslint-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.eslint-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.eslint-vscode",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabSize": 4,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".babelrc, .browserslistrc, .dockerignore, .editorconfig, .eslintignore, .eslintrc.*, .gitignore, .graphqlrc.*, .nvmrc, .prettierignore, .prettierrc.*, babel.config.json, cypress.json, jest.config.ts, jest.preset.js, nx.json, package.json, tsconfig.base.json, tsconfig.json, workspace.json, yarn.lock, vercel.json, netlify.toml, pnpm-lock.yaml, package-lock.json",
+    ".env": ".env.test, .env.local",
+    "vite.config.ts": "vitest.config.ts"
+  }
+}

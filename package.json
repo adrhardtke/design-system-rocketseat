@@ -1,0 +1,16 @@
+{
+  "name": "igniteui",
+  "private": "true",
+  "version": "0.0.0",
+  "packageManager": "npm@10.7.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build telemetry disable"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.6"
+  }
+}
